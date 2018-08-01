@@ -23,7 +23,7 @@
 <title>Online shopping ${title}</title>
 
 <script>
-	window.menu = "${title}";
+	window.menu = '${title}';
 </script>
 
 
@@ -74,7 +74,7 @@
 		
 
 		<!-- self coded javascript   -->
-		<link href="${js}/myapp.js">
+		<script src="${js}/myapp.js"></script>
 
 	</div>
 </body>

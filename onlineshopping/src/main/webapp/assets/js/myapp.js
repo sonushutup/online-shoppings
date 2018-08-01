@@ -2,11 +2,11 @@ $(function(){
 	
 	switch(menu){
 	
-	case 'about us':
+	case 'About us':
 		${'#about'}.addClass('active');
 		break;
 		
-	case 'contact us':
+	case 'Contact us':
 		${'#contact'}.addClass('active');
 		break;
 		
@@ -16,4 +16,4 @@ $(function(){
 	}
 	
 	
-})
+});

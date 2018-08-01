@@ -12,7 +12,7 @@
 
   <properties>
    <javaee.version>8.0</javaee.version>
-  <spring.version>4.3.8.RELEASE</spring.version>
+  <spring.version>4.3.6.RELEASE</spring.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -32,7 +32,7 @@
   <!--  spring web mvc api -->
 <dependency>
     <groupId>org.springframework</groupId>
-    <artifactId>spring-webmvc</artifactId>
+    <artifactId>spring-context</artifactId>
     <version>${spring.version}</version>
 </dependency>
   
